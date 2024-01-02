@@ -204,3 +204,89 @@ h1,h2,h3,h4,h5,h6,body{
     font-weight: 600;
     padding: 6px 0;
 }
+.icon-menu ul li {
+    list-style-type: none;
+}
+
+.icon-menu {
+    position: fixed;
+    top: 42px;
+    right: 10px;
+}
+
+.icon-menu ul {
+    line-height: 28px;
+    background-color: #FFB931;
+    padding: 18px;
+    border-radius: 24px;
+}
+
+.icon-menu ul li i {
+    color: black;
+}
+
+.icon-menu ul li i.active {
+    color: #fff;
+}
+
+.home-container>.row {
+    height: 100vh;
+}
+
+.icon-menu>ul>li::after {
+    content: "...";
+    font-weight: 600;
+    display: block;
+    transform: rotate(90deg);
+    margin-left: 6px;
+}
+
+.icon-menu>ul>li:nth-child(6)::after {
+    content: "";
+}
+
+.main-menu>ul>li::after {
+    content: "...";
+    font-weight: 600;
+    transform: rotate(90deg);
+    display: block;
+    margin-left: 6px;
+}
+
+.main-menu>ul>li:nth-child(1)::before {
+    content: "...";
+    font-weight: 600;
+    transform: rotate(90deg);
+    display: block;
+    margin-left: 6px;
+}
+
+.main-menu>ul::before {
+    content: "●";
+    font-weight: 900;
+    transform: rotate(90deg);
+    display: block;
+    margin-left: 2px;
+    margin-bottom: -10px;
+}
+
+.main-menu>ul::after {
+    content: "●";
+    font-weight: 900;
+    transform: rotate(90deg);
+    display: block;
+    margin-left: 2px;
+    margin-top: -10px;
+}
+
+.des{
+    text-decoration: none;
+    color: black;
+}
+.contactcc{
+    margin: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
