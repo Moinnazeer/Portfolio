@@ -1,5 +1,7 @@
-This repository hosts the code for my personal portfolio website, showcasing my skills and projects, It's my digital resume.
-The website highlights my certification, skills, and experiences. It includes an about me section and contact information.
-Built with HTML, CSS
-1.Clone: git clone https://github.com/Moinnazeer/Codesoft.git
-2.Open index.html in your browser.
+<h1 align="center" id="title">Personal Portfolio</h1>
+
+<p align="center"><img src="https://socialify.git.ci/Moinnazeer/Portfolio/image?font=Rokkitt&amp;language=1&amp;name=1&amp;owner=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+
+<h2>🚀 Demo</h2>
+
+[https://moinnazeer-portfolio.netlify.app/](https://moinnazeer-portfolio.netlify.app/)
